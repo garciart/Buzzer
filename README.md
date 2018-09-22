@@ -1,5 +1,5 @@
 # Buzzer!
-<h2>A fun way to annoy your friends using Adrian Stevens' awesome Simple Audio Player!</h2>
+<h2>A fun way to annoy your friends using Xamarin and Adrian Stevens' awesome Simple Audio Player!</h2>
 <h3>Introduction:</h3>
 Buzzer is a neat little application I wrote to annoy people who say stupid things and to get back into mobile application development using Xamarin. If you looked at the README.md for the Test Mate repositories, you'll know that my first mobile app was a port of Test Mate to my XV6700 Pocket PC using Visual C++ .NET back in 2006. I eventually ported Test Mate to the BlackBerry OS (Java), Apple's iOS (C++), Palm's webOS (HTML/JavaScript), and my Android devices (which I still use to this day). However, more and more of my friends began to ask me to write web sites, so, for almost a decade, I ended up focused on creating data-driven web applications.
 <br><br>
