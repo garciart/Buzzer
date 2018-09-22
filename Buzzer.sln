@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.iOS", "Buzzer\Buzzer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer.UWP", "Buzzer\Buzzer.UWP\Buzzer.UWP.csproj", "{B6696096-61F6-4F21-BF74-D421A558A692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buzzer", "Buzzer\Buzzer\Buzzer.csproj", "{AF1E5B63-A4DA-4F0A-A26E-34F94A033401}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Buzzer", "Buzzer\Buzzer\Buzzer.csproj", "{AF1E5B63-A4DA-4F0A-A26E-34F94A033401}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

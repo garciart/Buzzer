@@ -6,9 +6,15 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Welcome to Buzzer!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Press Me!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+           TextColor="White"
+           BackgroundColor="Red"
+           Clicked="Button_Clicked" />
     </StackLayout>
 
 </ContentPage>
