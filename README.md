@@ -32,7 +32,8 @@ Save all and click on Debug -&gt; Start Debugging (or press F5). It will take so
 If you press the button, nothing happens. Click on Debug -&gt; Stop Debugging (or press Shift F5) in Visual Studio. Add Clicked="Button_Clicked" to the Button control in MainPage.xaml:
 <p style="text-align: center;"><img src="http://rgprogramming.com/wp-content/uploads/buzzer-tutorial-09.jpg" /></p>
 Expand the MainPage.xaml node in the Solution Explorer and click on MainPage.xaml.cs to open the file (if it is not already open). Change the code to the following:
-<pre>using Plugin.SimpleAudioPlayer;
+<pre>
+using Plugin.SimpleAudioPlayer;
 using System;
 using System.IO;
 using System.Reflection;
@@ -43,6 +44,7 @@ namespace Buzzer {
         public MainPage() {
             InitializeComponent();
         }
+
         private void Button_Clicked(object sender, EventArgs e) {
             ISimpleAudioPlayer player = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
             player.Load(GetStreamFromFile("buzzer.mp3"));
@@ -77,5 +79,5 @@ Once again, save all and click on Debug -&gt; Start Debugging (or press F5). Onc
 <h3>Conclusion:</h3>
 There you have it: a simple application to annoy your friends. Make sure you also check out Simple Audio Player and Adrian Stevens' other Xamarin plugins at <a href="https://github.com/adrianstevens/Xamarin-Plugins" target="_blank" rel="noopener">https://github.com/adrianstevens/Xamarin-Plugins</a>. Have fun, and once again, I take no responsibility for what happens when you start annoying people with it!
 <h3>References:</h3>
-Microsoft. (n.d.). Xamarin.Forms. Retrieved September 22, 2018, from <a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/xamarin/xamarin-forms/</a>
-Stevens, A. (2018, September 1). adrianstevens/Xamarin-Plugins. Retrieved from <a href="https://github.com/adrianstevens/Xamarin-Plugins" target="_blank" rel="noopener">https://github.com/adrianstevens/Xamarin-Plugins</a>
+<p>Microsoft. (n.d.). Xamarin.Forms. Retrieved September 22, 2018, from <a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/xamarin/xamarin-forms/</a></p>
+<p>Stevens, A. (2018, September 1). adrianstevens/Xamarin-Plugins. Retrieved from <a href="https://github.com/adrianstevens/Xamarin-Plugins" target="_blank" rel="noopener">https://github.com/adrianstevens/Xamarin-Plugins</a></p>
